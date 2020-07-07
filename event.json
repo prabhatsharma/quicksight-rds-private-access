@@ -1,0 +1,22 @@
+{
+  "version": "0",
+  "id": "6bb1ebcc-3917-3c55-dd22-d6eb3327eaab",
+  "detail-type": "RDS DB Cluster Event",
+  "source": "aws.rds",
+  "account": "107995894928",
+  "time": "2020-07-07T17:52:48Z",
+  "region": "us-west-2",
+  "resources": [
+      "arn:aws:rds:us-west-2:107995894928:cluster:standard3"
+  ],
+  "detail": {
+      "EventCategories": [
+          "failover"
+      ],
+      "SourceType": "CLUSTER",
+      "SourceArn": "arn:aws:rds:us-west-2:107995894928:cluster:standard3",
+      "Date": "2020-07-07T17:52:48.694Z",
+      "Message": "Completed failover to DB instance: standard3-instance-1",
+      "SourceIdentifier": "standard3"
+  }
+}

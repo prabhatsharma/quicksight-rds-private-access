@@ -1,0 +1,15 @@
+{
+  "name": "rds_route53_private",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Prabhat Sharma <hi.prabhat@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.710.0"
+  }
+}
