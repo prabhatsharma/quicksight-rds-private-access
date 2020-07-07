@@ -27,6 +27,7 @@ We will create a lambda to listen to the cluster failover event. This lambda wil
 Make sure that your lambda has following permissions:
 1. Call RDS describeDBClusters
 1. Call Route53 changeResourceRecordSets 
+1. And your lambda is running in the VPC. This will help lambda resolve private IP address instead of public IP address for RDS endpoint.
 
 
 event pattern for clouswatch event is:
