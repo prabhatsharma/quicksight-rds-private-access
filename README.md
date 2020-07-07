@@ -2,15 +2,15 @@
 
 ## Poblem statement:
 
-Quicksight is unable to access an RDS cluster privatele if it aslso has opublic access.
+Quicksight is unable to access an RDS cluster privatele if it aslso has public access.
 
 ## Detail
 
-RDS provides access either publicly(and privately in VPC) or privately(only from VPC) or both.
+RDS provides access either publicly(and privately in VPC) or privately(only from VPC).
 Quicksight can access RDS for visualization if RDS is in private VPC. 
-Quicksight can access RDS publicly visualization if RDS is available publicly.
+Quicksight can access RDS publicly for visualization if RDS is available publicly and accessed publicly.
 
-If you have enabled RDS public acces and enabled access only from specified IP addresses andf try to access Quicksight over VPC then it does not work.
+If you have enabled RDS public acces and enabled access only from specified IP addresses and if you try to access Quicksight over VPC then it does not work.
 
 ## Solution
 
