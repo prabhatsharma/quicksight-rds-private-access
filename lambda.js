@@ -22,7 +22,7 @@ exports.handler = (event) => {
         DBClusterIdentifier: clusterIdentifier
     };
     rds.describeDBClusters(paramsDB, function (err, data) { // get the details of the cluster. We need the endpoint to get its IP address
-        console.log(' Got data from RDS. No will proceed to change IP address')
+        console.log('Got data from RDS. Now will proceed to change IP address')
         if (err) console.log(err, err.stack); // an error occurred
         else {
             var endpoint = data.DBClusters[0].Endpoint
