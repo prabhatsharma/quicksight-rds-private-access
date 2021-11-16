@@ -10,6 +10,6 @@
   "author": "Prabhat Sharma <hi.prabhat@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.710.0"
+    "aws-sdk": "^2.814.0"
   }
 }
